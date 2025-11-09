@@ -3,7 +3,7 @@ package CodeSolving_DSA;
 import java.util.Arrays;
 
 public class UnionOfTwoSortedArrays_GFG {
-    static void main(String[]args) {
+    public static void main(String[]args) {
         int [] arr1 = {1,2,3,4,5};
         int [] arr2 = {1,2,3,6,7};
 
