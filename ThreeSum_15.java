@@ -5,6 +5,10 @@ import java.util.*;
 public class ThreeSum_15 {
 
     //brute-force approach - Good in Normal java compilers, but will not valid for online platforms.
+     /*
+     * T.C - O(n3)
+     * S.C - O(n)
+     */
     /*public static List<List<Integer>> approach1(int []nums) {
         ArrayList<List<Integer>> result = new ArrayList<>();
         int n = nums.length;
@@ -26,8 +30,13 @@ public class ThreeSum_15 {
         return result;
     }*/
 
+    //Better approach - Using HasSet
+     /*
+     * T.C - O(n2)
+     * S.C - O(n)
+     */
     static List<List<Integer>> approach2(int []nums){
-        List<List<Integer>> res = new ArrayList<>();
+        Set<List<Integer>> res = new HashSet<>();
 
         int n  = nums.length;
 
@@ -35,7 +44,7 @@ public class ThreeSum_15 {
             Set<Integer> visit = new HashSet<>();
 
             for(int j = i+1; j<n; j++){
-                int need = nums[i] - nums[j];
+                int need = -nums[i] - nums[j];
 
                 if(visit.contains(need)){
                     List<Integer> triplet = Arrays.asList(nums[i], nums[j], need);
@@ -49,6 +58,10 @@ public class ThreeSum_15 {
     }
 
     //Efficient approach - using sorting & 2 pointers
+    /*
+    * T.C - O(n2)
+    * S.C - O(1)
+    */
     public static List<List<Integer>> approach3(int []nums){
         List<List<Integer>> res = new ArrayList<>();
         int n = nums.length;
@@ -93,8 +106,8 @@ public class ThreeSum_15 {
         /*List<List<Integer>> result1 = approach1(nums);
         System.out.println("The result of approach1 is: " + result1);*/
 
-        List<List<Integer>> result2 = approach2(nums);
-        System.out.println("The result of approach2 is: " + result2);
+        /*List<List<Integer>> result2 = approach2(nums);
+        System.out.println("The result of approach2 is: " + result2);*/
 
         List<List<Integer>> result3 = approach3(nums);
         System.out.println("The result of approach3 is: " + result3);
