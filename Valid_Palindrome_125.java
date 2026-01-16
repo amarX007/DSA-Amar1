@@ -53,12 +53,14 @@ public class Valid_Palindrome_125 {
 
     public static void main(String[] args) {
         String s = "Drord";
+        String m = "Dror";
 
         Valid_Palindrome_125 P = new Valid_Palindrome_125();
 
-        String result1 = String.valueOf(P.approach1(s));
-        String result2 = String.valueOf(P.approach2(s));
+        /*String result1 = String.valueOf(P.approach1(s));
+        String result2 = String.valueOf(P.approach2(s));*/
 
-        System.out.println(result1);
+        System.out.println(P.approach1(s));
+        System.out.println(P.approach2(m));
     }
 }
