@@ -1,10 +1,9 @@
 package CodeSolving_DSA;
 
-import java.lang.reflect.Array;
 import java.util.*;
 
 //Brute-force
-public class FourSum_BruteForce {
+public class FourSum_18 {
     //Brute-force
     public List<List<Integer>> approach1(int[] nums, int target) {
         HashSet<List<Integer>> ResultSet = new HashSet<>();
@@ -99,7 +98,7 @@ public class FourSum_BruteForce {
         int[] nums = {1,0,-1,0,-2,2}; // {1,0,-1,0,-2,2}
         int target = 2;
 
-        FourSum_BruteForce fs = new FourSum_BruteForce();
+        FourSum_18 fs = new FourSum_18();
 
         List<List<Integer>> output = fs.approach1(nums, target); //prints ap - 1
         System.out.println(output);
