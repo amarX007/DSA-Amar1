@@ -1,7 +1,33 @@
 package CodeSolving_DSA;
 
 public class SetMatrixZeros_73 {
-    public static void setZeros(int [][]matrix){
+    public static void betterApproach(int [][]matrix){
+        int row = matrix.length;
+        int col = matrix[0].length;
+
+        boolean [] rows = new boolean[row];
+        boolean [] cols = new boolean[col];
+
+        for (int i=0; i<row; i++){
+            for (int j=0; j<col; j++){
+                if (matrix[i][j] == 0){
+                    rows[i] = true;
+                    cols[j] = true;
+                }
+            }
+        }
+
+        for (int i=0; i<row; i++){
+            for (int j=0; j<col; j++){
+                if (rows[i] || cols[j]){
+                    matrix[i][j] = 0;
+                }
+            }
+        }
+    }
+
+
+    public static void optimalApproach(int [][]matrix){
 
         int rows = matrix.length;
         int columns = matrix[0].length;
@@ -66,7 +92,8 @@ public class SetMatrixZeros_73 {
                 {1,3,1,5}
         };
 
-        setZeros(matrix);
+        betterApproach(matrix);
+//        optimalApproach(matrix);
 
         for (int i=0; i<matrix.length; i++){
             for (int j=0; j<matrix[0].length; j++){
