@@ -22,7 +22,7 @@ public class Next_GreaterElement_GFG {
         return result;
     }
 
-    public static ArrayList<Integer> optimalApr(int [] arr) {
+    public static ArrayList<Integer> optimalApproach(int [] arr) {
         ArrayList<Integer> list = new ArrayList<>();
         Stack<Integer> stack = new Stack<>();
         int n = arr.length;
@@ -39,7 +39,7 @@ public class Next_GreaterElement_GFG {
             }
             stack.push(i);
         }
-//        Collections.reverse(list);
+        Collections.reverse(list);
         return list;
     }
 
@@ -47,7 +47,7 @@ public class Next_GreaterElement_GFG {
         int []arr = {1,2,3,4};
 
         ArrayList<Integer> res = bruteForce(arr);
-        ArrayList<Integer> res2 = optimalApr(arr);
+        ArrayList<Integer> res2 = optimalApproach(arr);
 
         System.out.println(res2);
     }
