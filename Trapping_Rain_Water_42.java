@@ -68,6 +68,6 @@ public class Trapping_Rain_Water_42 {
        int ans2 = efficient(arr);
 
 //        System.out.println("Total trapped water: " + ans);
-        System.out.println(ans2);
+        System.out.println("After raining total trapped water range is: " + ans2);
     }
 }
