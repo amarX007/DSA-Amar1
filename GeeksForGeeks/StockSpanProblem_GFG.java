@@ -1,4 +1,4 @@
-package CodeSolving_DSA.LeetCode;
+package CodeSolving_DSA.GeeksForGeeks;
 
 import java.util.ArrayList;
 import java.util.Stack;
