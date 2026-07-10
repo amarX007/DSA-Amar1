@@ -1,4 +1,4 @@
-package CodeSolving_DSA.LeetCode;
+package CodeSolving_DSA.LeetCode.Array_String;
 
 public class SortArrayByParity_II_922 {
 

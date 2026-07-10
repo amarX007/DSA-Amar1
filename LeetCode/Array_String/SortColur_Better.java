@@ -1,4 +1,4 @@
-package CodeSolving_DSA.LeetCode;
+package CodeSolving_DSA.LeetCode.Array_String;
 
 class SortColur_Better {
     public static void sortColors(int[] nums) {

@@ -1,4 +1,4 @@
-package CodeSolving_DSA.LeetCode;
+package CodeSolving_DSA.LeetCode.Array_String;
 
 public class SetMatrixZeros_73 {
     public static void betterApproach(int [][]matrix){

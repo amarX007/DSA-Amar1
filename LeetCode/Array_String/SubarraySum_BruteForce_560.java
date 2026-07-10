@@ -1,4 +1,4 @@
-package CodeSolving_DSA.LeetCode;
+package CodeSolving_DSA.LeetCode.Array_String;
 
 /*Given an array of integers nums and an integer k, return the total number of subarrays whose sum equals to k.*/
 public class SubarraySum_BruteForce_560 {

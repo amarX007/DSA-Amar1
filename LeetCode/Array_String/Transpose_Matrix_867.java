@@ -1,4 +1,4 @@
-package CodeSolving_DSA.LeetCode;
+package CodeSolving_DSA.LeetCode.Array_String;
 
 public class Transpose_Matrix_867 {
     public static int [][] transposeMatrix(int [][] matrix){
