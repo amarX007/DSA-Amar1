@@ -79,7 +79,7 @@ public class ConvertSortedArrayIn_BinaryTree_108 {
 
         System.out.println("\n");
 
-        System.out.println("Postorder Binary Tree is: ");
+        System.out.println("PostOrder Binary Tree is: ");
         cons.postOrder(root);
     }
 }
