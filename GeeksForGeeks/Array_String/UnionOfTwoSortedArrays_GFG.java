@@ -1,4 +1,4 @@
-package CodeSolving_DSA.GeeksForGeeks;
+package CodeSolving_DSA.GeeksForGeeks.Array_String;
 
 import java.util.Arrays;
 
