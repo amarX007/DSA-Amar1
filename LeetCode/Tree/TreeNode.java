@@ -1,4 +1,4 @@
-package CodeSolving_DSA.LeetCode.Array_String;
+package CodeSolving_DSA.LeetCode.Tree;
 
 public class TreeNode {
     int val;

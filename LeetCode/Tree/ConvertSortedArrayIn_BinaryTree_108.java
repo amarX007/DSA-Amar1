@@ -1,4 +1,4 @@
-package CodeSolving_DSA.LeetCode.Array_String;
+package CodeSolving_DSA.LeetCode.Tree;
 
 public class ConvertSortedArrayIn_BinaryTree_108 {
     public TreeNode sortedArrayToBST(int []nums) {
@@ -65,7 +65,7 @@ public class ConvertSortedArrayIn_BinaryTree_108 {
 
     public static void main(String[] args) {
         ConvertSortedArrayIn_BinaryTree_108 cons = new ConvertSortedArrayIn_BinaryTree_108();
-        int []nums = {-10, -3, 0, 5, 9};
+        int []nums = {-10, -3, 7,8,2, 0, 5, 9, -3};
 
         TreeNode root = cons.sortedArrayToBST(nums);
 

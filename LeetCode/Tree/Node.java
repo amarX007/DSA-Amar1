@@ -2,7 +2,8 @@ package CodeSolving_DSA.LeetCode.Tree;
 
 public class Node {
     int data;
-    Node left, right;
+    Node left;
+    Node right;
 
     Node(int data) {
         this.data = data;
