@@ -3,8 +3,8 @@ package CodeSolving_DSA.LeetCode.Stack;
 import java.util.Stack;
 
 public class Valid_Parenthesis_20 {
-    //Brute-force approach
 
+    //Brute-force approach
     public boolean approach1(String s){
         boolean change = true;
 
@@ -50,7 +50,6 @@ public class Valid_Parenthesis_20 {
         }
         return st.isEmpty();
     }
-    /**/
 
     public static void main(String[] args) {
         Valid_Parenthesis_20 vp = new Valid_Parenthesis_20();
