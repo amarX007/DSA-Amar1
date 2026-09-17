@@ -1,6 +1,5 @@
-package CodeSolving_DSA.GeeksForGeeks.Array_String;
+package CodeSolving_DSA.GFG_90_Days.Array;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class MoveAll_Zeros_ToEnd {
@@ -27,14 +26,14 @@ public class MoveAll_Zeros_ToEnd {
         for (int i=0; i<n; i++) {
             arr[i] = arr2[i];
         }
-
-        System.out.println("Solved array is: ");
-        System.out.println(Arrays.toString(arr));
     }
 
     public static void main(String[] args) {
         int[] arr = {1,2,0,4,3,0,5,0};
 
         bruteForce(arr);
+
+        System.out.println("Solved array is: ");
+        System.out.println(Arrays.toString(arr));
     }
 }

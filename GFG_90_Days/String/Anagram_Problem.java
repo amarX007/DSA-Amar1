@@ -1,4 +1,4 @@
-package CodeSolving_DSA.GeeksForGeeks.Array_String;
+package CodeSolving_DSA.GFG_90_Days;
 
 import java.util.Arrays;
 
