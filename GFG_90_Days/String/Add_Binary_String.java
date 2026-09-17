@@ -1,4 +1,4 @@
-package CodeSolving_DSA.GFG_90_Days;
+package CodeSolving_DSA.GFG_90_Days.String;
 
 public class Add_Binary_String {
     public static String addBinary(String s1, String s2) {
